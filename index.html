@@ -1,8 +1,82 @@
-<p>Hello 大家好</p>
-<p>我是霸都丶傲天，这是我的个人网站。 </p>
-<p>很高兴你来到这里, 你可以在以下的网站找到我</p>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>庆祝华水七十周年</title>
+    <link href="../css和js/轮播.css" type="text/css" rel="stylesheet">
+    <link href="../css和js/2.css" type="text/css" rel="stylesheet">
+    <style>
 
-<ul>
-  <li> <a href="https://www.zhihu.com/people/AJLoveChina">知乎</a> </li>
-  <li> <a href="http://hejie.nigeerhuo.com">我的博客(已经不更细了,现在在知乎写文章)</a> </li>
-</ul>
+     li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+   }
+		a:hover{
+			background-color: #00FFFF;
+    </style>
+    <style>
+            .b{
+       margin-left:30%;
+    }
+    .c{
+      margin-left:30%;
+      }
+      .home{
+      margin-left:40%;
+      }
+            body .ww{background-color:#015FAF;
+            }
+            .www{
+            text-align:center;
+            }
+
+    </style>
+</head>
+<body style="background-image:URL('../图片/背景.jpg');">
+
+
+          <div class="a">
+              <div class="b">
+                        <img src="../图片/首页1.png">
+
+              </div>
+
+            <ul class="c">
+              <li class="active"><a href="首页.html"> 首页<span class="sr-only"></span></a></li>
+                <li> <a href="../2/宣传口号.html">宣传口号</a></li>
+                <li> <a href="../3/校庆标识.html">校庆标识</a></li>
+                <li> <a href="../4/华水校友.html">华水校友</a></li>
+
+            </ul>
+          </div>
+    <div class="box">
+		<img id="change" src="../图片/背景1.jpg" alt="" width="100%"/>
+		<div id="imgText" class="text"></div>
+		<ul id="num" class="imgBottom" >
+			<li class onClick="jump(0)" >.
+			<li class onClick="jump(1)" >.
+			<li class onClick="jump(2)" >.
+		</ul>
+		<a class="left" href="#" onclick="last();" ><</a>
+		<a class="right" href="#" onclick="next();" >></a>
+	</div>
+                    <div class="www">
+              <video  width="700" height="600"controls>
+                  <source src="../图片/视频.mp4" type="video/mp4">
+                  <source src="../图片/视频.ogg"  type="video/ogg">
+              </video>
+          </div>
+    <script src="../css和js/main.js"></script>
+          <div class="ww">
+<div class="home" >
+    <img src="../图片/首页2.png"alt=""><br>
+        版权所有：华北水利水电大学  |  豫ICP备05002494  <br>
+<span class="hidden-xs">花园校区地址：河南省郑州市北环路36号       邮编：450045<br>
+龙子湖校区地址：河南省郑州市金水东路136号     邮编：450046</span>
+  </div>
+              </div>
+</body>
+</html>
